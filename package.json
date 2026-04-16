@@ -1,0 +1,19 @@
+{
+  "name": "pi-provider-bedrock",
+  "version": "0.1.0",
+  "description": "Bedrock provider for pi — routes to AWS Bedrock models via AWS profile auth",
+  "type": "module",
+  "keywords": ["pi-package", "bedrock", "aws", "provider"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samfoy/pi-provider-bedrock"
+  },
+  "pi": {
+    "extensions": ["./src/index.ts"]
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-ai": ">=0.54.0",
+    "@mariozechner/pi-coding-agent": ">=0.54.0"
+  }
+}
