@@ -1,7 +1,7 @@
 {
   "name": "pi-provider-bedrock",
-  "version": "0.1.1",
-  "description": "Bedrock provider for pi \u2014 routes to AWS Bedrock models via AWS profile auth",
+  "version": "1.0.0",
+  "description": "Bedrock provider for pi — routes to AWS Bedrock models via AWS profile auth",
   "type": "module",
   "keywords": [
     "pi-package",
