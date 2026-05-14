@@ -1,9 +1,9 @@
 // ABOUTME: Registers a "bedrock" provider with key models that route to AWS Bedrock
 // ABOUTME: using PI_BEDROCK_PROFILE. Gives a quick /model switch for Bedrock access.
 
-import type { Api, AssistantMessageEventStream, Context, Model, SimpleStreamOptions } from "@mariozechner/pi-ai";
-import { getApiProvider } from "@mariozechner/pi-ai";
-import type { ExtensionAPI } from "@mariozechner/pi-coding-agent";
+import type { Api, AssistantMessageEventStream, Context, Model, SimpleStreamOptions } from "@earendil-works/pi-ai";
+import { getApiProvider } from "@earendil-works/pi-ai";
+import type { ExtensionAPI } from "@earendil-works/pi-coding-agent";
 
 const PROVIDER = "bedrock";
 const ZERO_COST = Object.freeze({ input: 0, output: 0, cacheRead: 0, cacheWrite: 0 });
